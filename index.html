@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">&#x1F441; &#x1F441;</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Data Analysis</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Investment_Research</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>Welcome!<span class="home__title-color"><br>Presenting,</span><br>Our Report</h1>
+
+                    <a href="#" class="button">Review</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg width="479" height="467" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+					<path id="branch"
+      d="
+        M 0 0 L 0 -180
+        M 0 -40 L 40 -68
+        M 0 -40 L -40 -68
+        M 0 -80 L 40 -108
+        M 0 -80 L -40 -108
+        M 0 -120 L 40 -148
+        M 0 -120 L -40 -148"
+      stroke="#0000FF"
+      stroke-width="10"
+    />
+  </defs>
+
+  <g transform="translate(240, 233)">
+    <use href="#branch" />
+    <use href="#branch" transform="rotate(60)" />
+    <use href="#branch" transform="rotate(120)" />
+    <use href="#branch" transform="rotate(180)" />
+    <use href="#branch" transform="rotate(240)" />
+    <use href="#branch" transform="rotate(300)" />
+  </g>
+</svg>
+
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Investment Report</h2>
+                        <p class="about__text">The given dataset highlights key financial insights across multiple asset classes, ranging from ETFs and tech stocks to commodities and precious metals. Low-risk assets like SPY and VOO exhibit the least volatility (~0.13) with steady average returns (0.00095), making them ideal for long-term stability. In contrast, Tesla emerges as the most volatile stock (0.523868) but offers a strong average return (0.002005), reinforcing its status as a high-risk, high-reward asset. Tech stocks like Apple (0.001755 mean return) and Microsoft (0.001623 mean return) balance risk and reward, while Google, despite its potential (+0.070142 max return), also presents significant downside risk (-0.100914 min return). In commodities, Oil stands out with a negative mean return (-0.000286), suggesting market challenges, whereas Copper (0.000120 mean return) and Gold (0.000459 mean return) show resilience with moderate volatility (~0.2). Precious metals like Gold and Silver continue to provide hedging opportunities with relatively stable performance. The data reinforces a fundamental investing principle: diversification is essential—a well-balanced portfolio integrating ETFs for security, tech stocks for growth, commodities for industrial exposure, and precious metals for hedging can optimize risk-adjusted returns.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+<!--===== GLOBAL INVESTMENT MARKET 2023 =====-->
+<section class="investment-facts section" id="investment-facts">
+    <h2 class="section-title">Global Investment Market 2023</h2>
+
+    <div class="investment__container bd-grid">
+        <div>
+            <h2 class="investment__subtitle">Overview:</h2>
+            <p class="investment__text">Key highlights and statistics of the global investment market in 2023:</p>
+
+            <div class="investment__data">
+                <div class="investment__names">
+                    <i class='bx bxs-bar-chart-alt-2 investment__icon'></i>
+                    <span class="investment__name">Total Market Value</span>
+                </div>
+                <div class="investment__bar investment__total">
+                    <div class="investment__percentage" style="width: 100%;"></div>
+                </div>
+                <div>
+                    <span class="investment__value">$271 Trillion</span>
+                </div>
+            </div>
+
+            <div class="investment__data">
+                <div class="investment__names">
+                    <i class='bx bxs-building-house investment__icon'></i>
+                    <span class="investment__name">Fixed Income Share</span>
+                </div>
+                <div class="investment__bar investment__fixed-asset">
+                    <div class="investment__percentage" style="width: 54%;"></div>
+                </div>
+                <div>
+                    <span class="investment__value">$116 Trillion</span>
+                </div>
+            </div>
+
+            <div class="investment__data">
+                <div class="investment__names">
+                    <i class='bx bxs-globe investment__icon'></i>
+                    <span class="investment__name">Public Equities</span>
+                </div>
+                <div class="investment__bar investment__equities">
+                    <div class="investment__percentage" style="width: 33%;"></div>
+                </div>
+                <div>
+                    <span class="investment__value">$77 Trillion</span>
+                </div>
+            </div>
+
+            <div class="investment__data">
+                <div class="investment__names">
+                    <i class='bx bxs-line-chart investment__icon'></i>
+                    <span class="investment__name">S&P 500 Growth</span>
+                </div>
+                <div class="investment__bar investment__sp500">
+                    <div class="investment__percentage" style="width: 24.31%;"></div>
+                </div>
+                <div>
+                    <span class="investment__value">24.31%</span>
+                </div>
+            </div>
+
+            <div class="investment__data">
+                <div class="investment__names">
+                    <i class='bx bxs-dollar-circle investment__icon'></i>
+                    <span class="investment__name">Global Foreign Direct Investment (FDI)</span>
+                </div>
+                <div class="investment__bar investment__fdi">
+                    <div class="investment__percentage" style="width: 88%;"></div>
+                </div>
+                <div>
+                    <span class="investment__value">12% Decline</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="investment2023.jpg" alt="" class="investment__img">
+        </div>
+    </div>
+</section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+				<iframe src="Investment_Research.html" width="100%" height="600px"></iframe>
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/xldgbqwl" method="POST" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">End</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Goil Analysis.Thank You for Visiting our Website.</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script>
+		/*===== MENU SHOW =====*/ 
+const showMenu = (toggleId, navId) =>{
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId)
+
+    if(toggle && nav){
+        toggle.addEventListener('click', ()=>{
+            nav.classList.toggle('show')
+        })
+    }
+}
+showMenu('nav-toggle','nav-menu')
+
+/*==================== REMOVE MENU MOBILE ====================*/
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction(){
+    const navMenu = document.getElementById('nav-menu')
+    // When we click on each nav__link, we remove the show-menu class
+    navMenu.classList.remove('show')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+const sections = document.querySelectorAll('section[id]')
+
+const scrollActive = () =>{
+    const scrollDown = window.scrollY
+
+  sections.forEach(current =>{
+        const sectionHeight = current.offsetHeight,
+              sectionTop = current.offsetTop - 58,
+              sectionId = current.getAttribute('id'),
+              sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+        
+        if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
+            sectionsClass.classList.add('active-link')
+        }else{
+            sectionsClass.classList.remove('active-link')
+        }                                                    
+    })
+}
+window.addEventListener('scroll', scrollActive)
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2000,
+    delay: 200,
+//     reset: true
+});
+
+sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
+sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); </script>
+    </body>
+</html>
